@@ -1,8 +1,8 @@
-import Navbar from "@/scenes/navbar/Navbar.tsx";
+import Navbar from "./scenes/navbar/Navbar";
 import { useState } from "react";
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState('home');
+  const [selectedPage, setSelectedPage] = useState<string>('home');
 
   return (
     <div className='app bg-gray-20'>
