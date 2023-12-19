@@ -1,4 +1,4 @@
-import Navbar from "./scenes/navbar/Navbar";
+import Navbar from "@/scenes/navbar/Navbar";
 import { useState } from "react";
 
 function App() {

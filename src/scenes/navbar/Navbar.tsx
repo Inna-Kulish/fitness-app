@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+// import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Logo from '@/assets/Logo.png';
 import Link from "./Link";
 

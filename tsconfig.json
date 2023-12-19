@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "path": {
+    "paths": {
       "@/*": ["./src/*"]
     },
     "target": "ES2020",
