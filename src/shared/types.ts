@@ -4,3 +4,9 @@ export enum SelectedPage {
   OurClasses = 'ourclasses',
   ContactUs = 'contactus',
 }
+
+export interface PreferenceType {
+  icon: JSX.Element;
+  title: string;
+  description: string;
+}

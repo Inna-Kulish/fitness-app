@@ -10,6 +10,6 @@ body,
 .app {
   height: 100%;
   width: 100%;
-  font-family: "DM Sant", sans-serif;
+  font-family: 'DM Sant', sans-serif;
   @apply text-gray-500;
 }
