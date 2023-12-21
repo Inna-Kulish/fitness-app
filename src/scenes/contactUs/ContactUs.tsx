@@ -9,7 +9,7 @@ type Props = {
 };
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white outline-none`;
   const {
     register,
     trigger,
@@ -76,7 +76,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 {...register('name', { required: true, maxLength: 100 })}
               />
               {errors.name && (
-                <p className="mt-1 text-primary-500">
+                <p className="-mt-4 mb-3 text-primary-500">
                   {errors.name.type === 'required' && 'This field is required.'}
                   {errors.name.type === 'maxLength' &&
                     'Max length is 100 char.'}
@@ -92,7 +92,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 })}
               />
               {errors.email && (
-                <p className="mt-1 text-primary-500">
+                <p className="-mt-4 mb-3 text-primary-500">
                   {errors.email.type === 'required' &&
                     'This field is required.'}
                   {errors.email.type === 'pattern' && 'Invalid email address.'}
@@ -106,7 +106,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 {...register('message', { required: true, maxLength: 100 })}
               />
               {errors.message && (
-                <p className="mt-1 text-primary-500">
+                <p className="-mt-5 text-primary-500">
                   {errors.message.type === 'required' &&
                     'This field is required.'}
                   {errors.message.type === 'maxLength' &&
