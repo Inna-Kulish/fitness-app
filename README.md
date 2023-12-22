@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Fitness App - EVOGYM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
+This project is a one-page fitness app website built. The website features a responsive design, ensuring optimal viewing and interaction experience across various devices.
 
-Currently, two official plugins are available:
+### Technologies Used
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion**
+- **React Hook Form**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+1. Header Section: A navigational header allowing users to easily explore different sections of the page.
 
-## Expanding the ESLint configuration
+2. Main Section: This section provides information about the fitness club, including its mission, values, and overall concept.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. Benefits Section: Highlights the advantages and benefits of joining the fitness club.
 
-- Configure the top-level `parserOptions` property like this:
+4. Classes Section: Displays a list of available classes with detailed information about each, allowing users to explore the variety of classes offered.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+5. Contact Us Section: Incorporates a form using React Hook Form for users to provide feedback or make inquiries. This form enhances user engagement and facilitates communication.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+6. Footer Section: A comprehensive footer section containing essential links, contact information.
+
+7. Animations: Framer Motion is utilized to incorporate subtle and engaging animations throughout the page, enhancing the overall user experience.
+
+8. Responsive Design: The webpage is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
